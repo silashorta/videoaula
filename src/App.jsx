@@ -5,6 +5,8 @@ import Footer from './components/Footer';
 import Home from './pages/Home';
 import AllCourses from './pages/AllCourses';
 import MyCourses from './pages/MyCourses';
+import CourseSelected from './pages/CourseSelected';
+import ShowCourse from './pages/ShowCourse';
 import NextLesson from './pages/NextLesson';
 import LessonHistory from './pages/LessonHistory';
 import AllExercises from './pages/AllExercises';
@@ -28,6 +30,8 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/courses" element={<AllCourses />} />
             <Route path="/my-courses" element={<MyCourses />} />
+            <Route path="/course-details" element={<CourseSelected />} />
+            <Route path="/show-course" element={<ShowCourse />} />
             <Route path="/next-lesson" element={<NextLesson />} />
             <Route path="/lesson-history" element={<LessonHistory />} />
             <Route path="/exercises" element={<AllExercises />} />

@@ -25,7 +25,7 @@ const Header = () => {
             </li>
           </ul>
         </li>
-        <li className="relative group">
+{/*         <li className="relative group">
           <nav className="text-white block py-2 cursor-pointer">Aulas</nav>
           <ul className="absolute left-0 top-8 hidden w-max group-hover:block bg-zinc-700 mt-1 rounded-lg text-sm">
             <li>
@@ -46,7 +46,7 @@ const Header = () => {
               <Link to="/my-exercises" className="block px-4 py-2 text-white hover:bg-zinc-600 rounded-lg">Meus Exercícios</Link>
             </li>
           </ul>
-        </li>
+        </li> 
         <li className="relative group">
           <nav className="text-white block py-2 cursor-pointer">Recursos</nav>
           <ul className="absolute right-0 top-8 hidden w-max group-hover:block bg-zinc-700 mt-1 rounded-lg text-sm">
@@ -60,7 +60,7 @@ const Header = () => {
               <Link to="/recommended-readings" className="block px-4 py-2 text-white hover:bg-zinc-600 rounded-lg">Leituras Recomendadas</Link>
             </li>
           </ul>
-        </li>
+        </li>*/}
         <li className="relative group">
           <nav className="text-white block py-2 cursor-pointer">Fórum</nav>
           <ul className="absolute right-0 top-8 hidden w-max group-hover:block bg-zinc-700 mt-1 rounded-lg text-sm">

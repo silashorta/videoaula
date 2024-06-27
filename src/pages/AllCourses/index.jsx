@@ -42,7 +42,7 @@ const AllCourses = () => {
               <h3 className="text-lg font-semibold">Course Title</h3>
               <p className="text-sm text-gray-700">Instructor Name</p>
               <p className="text-sm text-yellow-500">★★★★☆</p>
-              <Link to="/course-details" className="block mt-2 text-center text-white bg-blue-500 hover:bg-blue-600 rounded-lg py-2">Ver Curso</Link>
+              <Link to="/show-course" className="block mt-2 text-center text-white bg-blue-500 hover:bg-blue-600 rounded-lg py-2">Ver Curso</Link>
             </div>
           </div>
           <div className="bg-white shadow-md rounded-lg overflow-hidden h-max">
@@ -51,7 +51,7 @@ const AllCourses = () => {
               <h3 className="text-lg font-semibold">Course Title</h3>
               <p className="text-sm text-gray-700">Instructor Name</p>
               <p className="text-sm text-yellow-500">★★★★☆</p>
-              <Link to="/course-details" className="block mt-2 text-center text-white bg-blue-500 hover:bg-blue-600 rounded-lg py-2">Ver Curso</Link>
+              <Link to="/show-course" className="block mt-2 text-center text-white bg-blue-500 hover:bg-blue-600 rounded-lg py-2">Ver Curso</Link>
             </div>
           </div>
           <div className="bg-white shadow-md rounded-lg overflow-hidden h-max">
@@ -60,7 +60,7 @@ const AllCourses = () => {
               <h3 className="text-lg font-semibold">Course Title</h3>
               <p className="text-sm text-gray-700">Instructor Name</p>
               <p className="text-sm text-yellow-500">★★★★☆</p>
-              <Link to="/course-details" className="block mt-2 text-center text-white bg-blue-500 hover:bg-blue-600 rounded-lg py-2">Ver Curso</Link>
+              <Link to="/show-course" className="block mt-2 text-center text-white bg-blue-500 hover:bg-blue-600 rounded-lg py-2">Ver Curso</Link>
             </div>
           </div>
           <div className="bg-white shadow-md rounded-lg overflow-hidden h-max">
@@ -69,7 +69,7 @@ const AllCourses = () => {
               <h3 className="text-lg font-semibold">Course Title</h3>
               <p className="text-sm text-gray-700">Instructor Name</p>
               <p className="text-sm text-yellow-500">★★★★☆</p>
-              <Link to="/course-details" className="block mt-2 text-center text-white bg-blue-500 hover:bg-blue-600 rounded-lg py-2">Ver Curso</Link>
+              <Link to="/show-course" className="block mt-2 text-center text-white bg-blue-500 hover:bg-blue-600 rounded-lg py-2">Ver Curso</Link>
             </div>
           </div>
           {/* Repeat for other courses */}
